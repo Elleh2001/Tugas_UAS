@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    min-height: auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 25% 125% 15%;
+    margin: 0%;
+    padding-left: 0%;
+    
+}
+.container .left_slide{
+    position: relative;
+    background: white;
+    padding-left: 2%;
+}
+.container .right_slide{
+    position: relative;
+    background:rgb(64, 164, 201);
+    text-align: center;
+    padding-top: 1%;
+}
+.container .kanan{
+    position: relative;
+    background-color:white;
+    text-align: center;
+    padding-top: 10%;
+}
+.container .kanan button{
+    width: 90%;
+    height: 70px;
+    background-color: rgb(248, 53, 53);
+}
+.imgProf{
+    margin: 0%;
+    padding-left: 25%;
+    padding-top: 2%;
+}
+.konten{
+    padding-left: 20%;
+}
+.konten table{
+    margin: 3%;
+}
+.class{
+    text-align: left;
+    padding-top: 1%;
+    
+}
+.konten .class h1{
+    text-align: left;
+}
+.gambar{
+    text-align: center;
+}
+.bar {
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    left: 0;
+    background:black;
+}
+.bar .text{
+    text-align: center;
+    color:black;
+    line-height: 50px;
+    font-size: 25px;
+    background: silver;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+nav ul{
+    background: black;
+    list-style: none;
+}
+nav ul li{
+    line-height: 40px;
+    border-bottom: 2px solid rgba(243, 8, 8, 0.755);
+    border-bottom: 2px unset blue;
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    width: 85%;
+    border-left: 3px solid transparent;
+}
+nav ul li a:hover{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+}
+nav ul ul{
+    position: static;
+}
+nav ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+.konten .class .data{
+    color: rgb(51, 53, 51);
+    box-sizing: border-box;
+    margin: 5%;
+    width: 35%;
+    height: 150px;
+    background: rgb(248, 164, 37);
+    padding-top: 5px;
+    padding-left: 5%;
+}
+.data button{
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+    background-color: #575858;
+    text-align: center;
+}
+
+.dayut{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background-color: #575858;
+}
+.dayut a:hover{
+    color: rgb(255, 254, 254);
+}
+.data a:hover{
+    color: rgb(238, 243, 245);
+    list-style-position: none;
+}
+.container .kanan a:hover{
+    color: rgb(238, 243, 245);
+    list-style-position: none;
+}
+.konten .class .data_kanan{
+    color: black;
+    box-sizing: border-box;
+    margin: 5%;
+    width: 35%;
+    height: 150px;
+    background: rgb(55, 224, 106);
+    padding-top: 5px;
+    padding-left: 3%;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 95%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* button{
+    box-sizing: border-box;
+    width: 50px;
+    height: 35px;
+    background-color: red;
+} */
+
+/*
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1200px; 
+}
+*/
+/*.judul{
+    color: rgb(119, 116, 116);
+    box-sizing: border-box;
+    width: 100%;
+    height: 65px;
+    background:rgb(40, 43, 56);
+    padding-left: 10%;
+    padding-top: 15px;
+    font-size: 140%;
+    text-align: center;
+}
+.pendidikan{
+    box-sizing: content-box;
+    width: 77%;
+    height: 77%;
+    background: rgb(90, 231, 161);
+    padding-left: 15%;
+    padding-top: 10%;
+}
+.box{
+    box-sizing: border-box;
+    width: 35%;
+    height: 35px;
+    background-color: rgb(229, 255, 0);
+    padding-left: 2%;
+    padding-top: 2%;
+   
+}
+h1{
+    padding-left: 3%;
+    font-family: lucida grand;
+    font-size: 300%;
+} */
